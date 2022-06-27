@@ -23,7 +23,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'main.bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
   },
   devtool: "source-map",
   mode:"production",
